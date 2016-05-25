@@ -219,8 +219,8 @@ bool rtw_odm_adaptivity_needed(_adapter *adapter)
 		ret = _TRUE;
 
 	if (ret == _TRUE) {
-		rtw_odm_adaptivity_en_msg(RTW_DBGDUMP, adapter);
-		rtw_odm_adaptivity_mode_msg(RTW_DBGDUMP, adapter);
+		//rtw_odm_adaptivity_en_msg(RTW_DBGDUMP, adapter);
+		//rtw_odm_adaptivity_mode_msg(RTW_DBGDUMP, adapter);
 	}
 
 	return ret;
